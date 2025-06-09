@@ -10,8 +10,9 @@
     header {
       background-color: #0d6efd;
       color: #fff;
-      padding: 20px 0;
+      padding: 100px 20px 20px;
       text-align: center;
+      min-height: 6ovh;
     }
 
   
@@ -102,6 +103,7 @@
 .portfolio-item p {
   margin-top: 5px;
   font-size: 14px;
+  color:#1501ca;
   }
   .portfolio-item:hover{
     transform: scale(1.05);
@@ -118,12 +120,17 @@
   width: 100%;
    z-index: 500;
     } 
- .navbar-container { 
-    display: flex;
-      gap:1px;
-      align-items: center;
+ .navbar-container {
+       display: flex;
+       gap:1px;
+       align-items: center;
        height: 64px;
-        }
+       border-radius:10px ;
+       border-bottom-left-radius :10px;
+border-bottom-right-radius :30px;
+border-top-left-radius: 30px;
+border-top-right-radius :30px;
+}
   .menu-items { 
     display: flex;
     gap:15px;
@@ -147,4 +154,13 @@
                   color: #f0f0e6; 
                   font-size: 1rem;
                  } 
+
+    .navbar{
+      position: fixed;
+      top:0;
+      width:100%;
+      z-index:500;
+      transition: top 0.2s ease-in-out;
+      
+}             
                    

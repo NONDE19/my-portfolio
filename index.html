@@ -83,12 +83,20 @@
       <p>Event Poster Design</p>
     </div>
      <div class="portfolio-item">
-      <img src="img/df.jpg" alt="Event Poster">
+      <img src="img/df.jpg" alt="">
       <p>Event Poster Design</p>
     </div>
      <div class="portfolio-item">
-      <img src="img/fbg.jpg" alt="Event Poster">
-      <p>Event Poster Design</p>
+      <img src="img/bookcover.png" alt="Book Cover">
+      <p>Book Cover</p>
+    </div>
+     <div class="portfolio-item">
+      <img src="img/tgf.png" alt="TGF">
+      <p>Tgf Flyer</p>
+    </div>
+     <div class="portfolio-item">
+      <img src="img/business card.png" alt="Business CardS">
+      <p>Business Cards</p>
     </div>
     <div class="portfolio-item">
       <p><a href="https://www.behance.net/gallery/225032317/My-works">View More on Behance</a></p>
@@ -106,6 +114,23 @@
       <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61572996906903">facebook</a></li>
     </ul>
   </section>
+
+  <script>
+    let lastScrollTop = 0;
+    const navbar =
+    document.querySelector(".navbar");
+    window.addEventListener("scroll", () => {
+      let currentScroll = window.pageYOffset
+    || document.documentElement.scrollTop;
+  if (currentScroll > lastScrollTop) {
+    navbar.style.top = "-80px";
+  } 
+else{
+  navbar.style.top = "0";
+}
+lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+  </script>
 
 </body>
 </html>
