@@ -120,12 +120,13 @@
     } 
  .navbar-container { 
     display: flex;
-      gap:5px;
+      gap:1px;
       align-items: center;
        height: 64px;
         }
   .menu-items { 
     display: flex;
+    gap:1px;
           } 
   .menu-items li {
            list-style: none; 
@@ -134,8 +135,7 @@
   .menu-items a { 
     text-decoration: none; 
             color: rgb(0, 4, 211);
-             font-size: 1.1rem;
-              padding: 0.1rem;
+             font-size: 1rem;
               font-weight: 900px;
                }
   .menu-items a:hover {
@@ -146,5 +146,6 @@
    .navbar .logo{ 
                  order: 1; 
                   color: #f0f0e6; 
-                  font-size: 2rem; } 
+                  font-size: 1rem;
+                 } 
                    
