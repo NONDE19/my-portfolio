@@ -126,11 +126,10 @@
         }
   .menu-items { 
     display: flex;
-    gap:1px;
+    gap:15px;
           } 
   .menu-items li {
            list-style: none; 
-           padding: 1rem; 
            } 
   .menu-items a { 
     text-decoration: none; 
