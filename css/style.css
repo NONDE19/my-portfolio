@@ -18,7 +18,7 @@
   
 
     nav a:hover {
-      color: #ff7707;
+      color: #0018ee;
     }
 
     section {
@@ -140,7 +140,7 @@ border-top-right-radius :30px;
            } 
   .menu-items a { 
     text-decoration: none; 
-            color: rgb(0, 4, 211);
+            color: rgb(211, 102, 0);
              font-size: 1rem;
               font-weight: 900px;
                }
